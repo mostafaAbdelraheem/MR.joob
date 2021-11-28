@@ -2,6 +2,53 @@ body{
     background-color: rgb(238, 237, 237);
    
 }
+nav{
+    background-color: rgb(27, 99, 182);
+    height: 70px;
+    width: 100%;
+    color: white;
+    padding: 0px -5px 0px -10px;
+}
+nav ul{
+    list-style: none;
+    /* padding: 5px -20px 3px 150px; */
+    justify-content: center;
+    display: inline-flex ;
+    margin: 15px 15px 10px 700px ;
+;
+}
+nav li{
+    padding: 15px;
+    font-size: 20px;
+}
+div li :hover{
+    color: yellowgreen;
+}
+.con:hover{
+    color: yellowgreen;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul .CU{
+    display: none;
+}
+.con:hover .CU{
+    display: inline-flex;
+    display: block;
+    padding: 1px;
+    margin-top: 10px;
+	margin-left: 2px;
+    background-color: rgb(16, 89, 150);
+    border: white solid;
+    border-radius: 7px;
+
+    
+
+}
+    
+
 .SI{
     margin-left: 650px;
     margin-top: -85px;
@@ -10,7 +57,7 @@ body{
 }
 
 div#sign{
-    top: 10%;
+    top: 15%;
     left: 35%;
     height: 550px;
     width: 400px;
@@ -47,6 +94,7 @@ background-color:  #084080;
     padding-top: 5px;
     left: 100px;
 }
+
 input{    
     height: 37px;
     background-color: #FAFAFB;
