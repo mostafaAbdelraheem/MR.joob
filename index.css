@@ -62,7 +62,7 @@ ul .CU{
 div#sign{
     top: 15%;
     left: 35%;
-    height: 550px;
+    height: 600px;
     width: 400px;
     position: absolute;
     border: 2px solid #619af0;
@@ -98,12 +98,13 @@ background-color:  #084080;
     padding-top: 5px;
     left: 100px;
 }
-
 input{    
-    height: 37px;
+    height: 20px;
+    width: 30%;
     background-color: #FAFAFB;
     border: 1px solid #D9DDE4;
     border-radius: 2px;
+    margin-top: -50px;
 
 }
 input:hover{
@@ -112,25 +113,26 @@ input:hover{
 .FN{
     display: inline;
     padding: 10px 100px 10px 10px ;
-    width: 290px;
+    margin-left: 80px;
+    width: 200px;
 }
 .LN{
     padding: 10px 100px 10px 10px ;
     display: inline;
-    margin-left: 11px;
-    width: 290px;
+    margin-left: 80px;
+    width: 200px;
     position: relative;
 }
 .E{
     padding: 10px 100px 10px 10px ;
-    margin-left: 34px;
-    width: 290px;
+    margin-left: 80px;
+    width: 200px;
 
 }
 .pass{
     padding: 10px 100px 10px 10px ;
-    margin-left: 12px;
-    width: 290px;
+    margin-left: 80px;
+    width: 200px;
 }
 #sign div{
     padding: 10px;
@@ -140,7 +142,7 @@ input:hover{
     width: 70px;
     height: 40px;
     margin-left: 170px;
-    background-color: darkcyan;
+    background-color:teal;
     padding-bottom: 4px;
 }
 .FC{
