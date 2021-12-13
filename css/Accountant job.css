@@ -1,0 +1,145 @@
+body{
+    /* background-image: url(../imgs/backg2.jpeg); */
+}
+nav{
+    position: fixed;
+    background-color:rgb(26, 95, 224);
+    height: 70px;
+    width: 105%;
+    color: black;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    /* list-style: none;
+    display: inline-flex ;
+    margin: 15px 15px 10px 750px ; */
+
+}
+nav li{ 
+    
+    /* padding: 5px;
+    font-size: 20px; */
+}
+ul li a{
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px; 
+    color: black;
+    font-size: 18px;
+
+    /* text-decoration: none;   
+    display: inline-flex;
+    padding: 30px;
+    float: right; */
+
+}
+ul li a:hover{
+    color: lawngreen;
+}
+.CU a{
+    display: none;
+}
+.con:hover .CU{
+    display: inline-flex;
+    display: block;
+    margin-top: 10px;
+	margin-left: 2px;
+    background-color: rgb(16, 89, 150);
+    border: white solid;
+    border-radius: 7px;
+
+    
+
+}
+.acc2{
+    padding-top: 70px;
+    width: 100%;
+    /* opacity: 0.8; */
+
+}
+h1{
+    text-align: center;
+    color: darkcyan;
+    text-shadow: 0px 0px 7px;
+     ;
+}
+div{
+    width: 300px;
+    height: 360px;
+    border: 3px solid darkcyan;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(243, 243, 247);
+    display: inline-block;
+    margin: 25px;
+    box-shadow: 0px 0px 5px rgb(40, 133, 255);
+    /* opacity: 0.5;
+    color: white; 
+    background-color: rgb(128, 128, 131); */
+
+    
+}
+.accimg{
+    width: 100%;
+    height: 60%;
+    text-align: left;
+    padding-top: 7px;
+    /* opacity: 0.8; */
+}
+div ul li {
+    text-decoration: none;
+    display: flex;
+    padding-left: 50px;
+    margin: 6px;
+}
+.spmt{
+    width: 70px;
+    height: 25px;
+    float: left;
+    margin-left: 50%;
+    background-color: darkcyan;
+    color: cornsilk;
+    border-radius: 7px;
+}
+.spmt:hover{
+    background-color:lawngreen;
+    color: rgb(211, 71, 46);
+    width: 72px;
+}
+
+footer{
+	background-color:rgb(26, 95, 224);
+	width: 100%;
+    height: 150px;
+	padding: 10px 50px 30px 20px ;
+	margin:0px 0px -30px -17px;
+}
+.fot{
+	color: black;
+	text-align: center;
+
+}
+
+span img{
+    display: inline;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    
+
+}
+span img:hover{
+    width: 35px;
+    height: 35px;
+}
+span a{
+        text-decoration: none;
+
+}
+footer .fot:hover{
+	color: lawngreen;
+}
