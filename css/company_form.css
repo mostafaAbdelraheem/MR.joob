@@ -1,22 +1,23 @@
 body{
-    background: rgb(255, 255, 255) url(../imgs/gonna.png);
-    /* background-size: 70%; */
+    background: rgb(255, 255, 255) url(../imgs/nback.jpg);
+    background-size: 100%;
     font-size: 20px;
+    background-attachment: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 form{
     width: 35%;
     height: 700px;
+    color: whitesmoke;
     padding-right: 5px;
     overflow: scroll;
     border: 1px solid rgb(184, 182, 182);
     border-radius: 20px;
     text-align: right;
     position: relative;
-    background: rgb(221, 221, 221);
+    background: rgb(221, 221, 221,0.1);
     margin-right: 33%;
-    box-shadow: rgb(141, 138, 141) 0px 0px 15px;
-    opacity: 0.6;
+    box-shadow: rgb(141, 138, 141) 0px 0px 17px;
 
     
 
@@ -87,4 +88,13 @@ input:hover{
 .sub:hover{
     box-shadow:rgb(3, 20, 99) 0px 0px 10px;
     background: #1d009c;
+}
+::-webkit-scrollbar {
+    display: none;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #fdf;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #6a0c81 !important;
 }

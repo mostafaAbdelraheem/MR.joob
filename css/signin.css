@@ -42,6 +42,8 @@
  .text a input:hover{
      height: 48px;
      box-shadow: 1px 1px 7px #dfd;
+     border: solid 2px black;
+     border-radius: 3px 55% 55% 3px;
  }
 
 
@@ -93,7 +95,7 @@
 div#sign {
     top: 20%;
     left: 65%;
-    height: 400px;
+    height: 450px;
     width: 400px;
     position: absolute;
     border: 0px solid #619af0;

@@ -1,10 +1,8 @@
 body{
         background-image: url(../imgs/tbg.jpg);
-        /* background-repeat: repeat; */
-        background-size: 47%;
-        /* background-image: url(imgs/backg3.jpeg); */
-   
+
 }
+   
 /* 
 
  nav{
@@ -104,18 +102,18 @@ div.text{
  .text a input:hover{
      width: 392px;
      height: 42px;
-     box-shadow: 1px 1px 7px #dfd;
-     background-color: rgba(51, 231, 5, 0.897);
-     border-radius: 2px 75px 75px 2px;
+     box-shadow: 1px 1px 7px rgb(255, 225, 221);
+     /* background-color: rgb(15, 136, 235); */
+     border-radius: 3px 55% 55% 3px;
      border: 2px black solid;
  }
 
 
 div#sign{
     color: whitesmoke;
-    top: 13%;
+    top: 10%;
     left: 57%;
-    height: 620px;
+    height: 650px;
     width: 400px;
     position: absolute;
     border: 0px solid #0d61df;
@@ -227,7 +225,7 @@ input:hover{
 }
 .or{
     text-align: center;
-    color: rgb(15, 49, 163);
+    color: rgb(8, 223, 19);
 }
 @media all and (min-width: 800px){
     #sign{

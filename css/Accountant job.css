@@ -1,7 +1,6 @@
 body{
-    background-image: url(../imgs/backimg.jpg);
-    background-repeat: repeat-y;
-    background-attachment: scroll;
+    background: url(../imgs/backimg.jpg) scroll  ;
+
 
 }
 #top-logo h2{
