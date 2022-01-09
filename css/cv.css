@@ -1,0 +1,89 @@
+body{
+background-image :url("../imgs/inter-viow3.jpg");
+background-size: 25%;
+background-attachment: fixed;
+
+
+    /* background-color: #D3D3D3; */
+}
+.cv{
+  font-family:noga;
+  margin-left: 370px;
+  margin-top: 40px;
+  background-position: 50px 50px 50px 50px;
+  width: 600px;
+
+
+  /* background-color: #708090; */
+}
+fieldset{
+  border-radius: 50px;
+  border-width: 2px;
+  border-color: black;
+  background-color: rgba(223, 223, 223, 0.473);
+  position: absolute;
+  left: 32%;
+
+}
+.two{
+  color: red;
+}
+.three{
+  color:blue;
+}
+legend{
+margin: 0 auto;
+font-size: 80px;
+
+}
+::placeholder{
+  font-size: 18px;
+}
+label{
+  color: black;
+  margin: 10px;
+  margin-left: 50px;
+  font-size: 18px;
+
+}
+
+
+@font-face {
+  src: url("../fonts/F_font.ttf");
+  font-family: noga;
+
+}
+input{
+  font-family:noga;
+  border-width: 0px;
+  border-color:pink;
+  width: 500px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 20px;
+
+
+}
+input:hover{
+  background-color:#ffe4b5;
+}
+label:active{
+  background-color:pink;
+}
+input[type=submit]:hover{
+  background-color:#008080;
+}
+input[type=submit]:active{
+  background-color: #002020;
+}
+input[type=reset]:hover{
+  background-color:#008080;
+}
+input[type=reset]:active{
+  background-color: #002020;
+}
+.ten{
+  background-color: blue;
+  font-size: 20px;
+  font-family: noga;
+}

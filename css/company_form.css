@@ -1,0 +1,90 @@
+body{
+    background: rgb(255, 255, 255) url(../imgs/gonna.png);
+    /* background-size: 70%; */
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    width: 35%;
+    height: 700px;
+    padding-right: 5px;
+    overflow: scroll;
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 20px;
+    text-align: right;
+    position: relative;
+    background: rgb(221, 221, 221);
+    margin-right: 33%;
+    box-shadow: rgb(141, 138, 141) 0px 0px 15px;
+    opacity: 0.6;
+
+    
+
+}
+h3{
+    text-align: center;
+}
+/* label{
+    font-size: 14px;
+    color: #102020;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 12px;
+} */
+
+
+input {
+    width: 470px;
+    height: 55px;
+    border: 0px solid black;
+    border-radius: 13px;
+    margin: 1px 20px 15px 1px;
+    box-shadow: silver 0px 0px 7px;
+    
+    
+}
+input:hover{
+    box-shadow: teal 0px 0px 10px;
+}
+.r input{
+    width: 17px;
+    height: 17px;
+    display: inline;
+}
+/* .fn{
+    padding-right: 3px;
+}
+.ph{
+    padding-right: 38px;
+}
+.e{
+    padding-right: 10px;
+}
+.g{
+    padding-right: 57px;
+}
+.jn{
+    padding: 20px 13px 15px 0px;
+} */
+.ag{
+    width: 40px;
+    height: 40px;
+    
+}
+.age ::placeholder{
+    margin-right: -50px;
+}
+::placeholder{
+    font-size: 15px;
+    color: rgb(34, 45, 46);
+    padding-right: 20px;
+}
+.sub{
+    background: rgb(12, 9, 46);
+    color: white;
+    font-size: 20px;
+}
+.sub:hover{
+    box-shadow:rgb(3, 20, 99) 0px 0px 10px;
+    background: #1d009c;
+}

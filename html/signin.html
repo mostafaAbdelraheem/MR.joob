@@ -1,162 +1,54 @@
 <html>
-    <head>
-        <title>signin</title>
-        
-        <!-- <link rel="stylesheet" href="/css/signin.css"> -->
-        <style>
-            body{
-    background-color: rgb(238, 237, 237);
-   
-}
-nav{
-    background-color: rgb(27, 99, 182);
-    height: 70px;
-    width: 100%;
-    color: white;
-    padding: 0px -5px 0px -10px;
-}
-nav ul{
-    list-style: none;
-    /* padding: 5px -20px 3px 150px; */
-    justify-content: center;
-    display: inline-flex ;
-    margin: 15px 15px 10px 700px ;
-;
-}
-nav li{
-    padding: 15px;
-    font-size: 20px;
-}
-div li :hover{
-    color: yellowgreen;
-}
-.con:hover{
-    color: yellowgreen;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-ul .CU{
-    display: none;
-}
-.con:hover .CU{
-    display: inline-flex;
-    display: block;
-    padding: 1px;
-    margin-top: 10px;
-	margin-left: 2px;
-    background-color: rgb(16, 89, 150);
-    border: white solid;
-    border-radius: 7px;
-}
-.FN{
-    display: inline;
-    padding: 10px 100px 10px 10px ;
-    width: 290px;
-}
 
-.pass{
-    padding: 10px 100px 10px 10px ;
-    margin-left: 12px;
-    width: 290px;
-}
-#sign div{
-    padding: 10px;
+<head>
+    <title>signin</title>
 
-}
-.sub{
-    width: 70px;
-    height: 40px;
-    margin-left: 170px;
-    background-color: rgb(29, 104, 218);
-    padding-bottom: 4px;
-    color: white;
-}
-.sub:hover{
-    background-color: chartreuse;
-    color: black;
-}
-div#sign{
-    top: 30%;
-    left: 35%;
-    height: 200px;
-    width: 400px;
-    position: absolute;
-    border: 2px solid #619af0;
-    border-radius: 12px;
-    padding: 10px;
-    padding-top: 60px;
-    box-shadow: 0px 0px 15px   rgb(139, 180, 241);
-    display: inline;
-    /* background-color: rgb(238, 242, 255); */
-    background-image: url(/imgs/backgin.jpeg);
-}
-input{    
-    height: 37px;
-    background-color: #FAFAFB;
-    border: 1px solid #D9DDE4;
-    border-radius: 2px;
+    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="icon" type="image/png" href="../imgs/NEWLOGO.png">
 
-}
-input:hover{
-    box-shadow: 0px 0px 20px   rgb(185, 208, 241);
-}
-a.FP{
-    color: blue;
-    padding-left: 155px;
-}
-    
-        </style>
 
-    </head>
-    <body>
+</head>
 
-        <nav>
-            <div>
-                <ul>
-                    <li> <a href="">Sections</a> </li>
-                    <li> <a href="">Sign In</a> </li>
-                    <li> <a href="J:\DTU SECOND YEAR\WEB PROGRAMING\web_proj\index.html">Sign Up</a></li>
-                    <li> <a href="">For Persones</a></li>
-                    <li> <a href="">For Companies</a></li>
-                    <li class="con">Connect With Us
-                        <ul class="CU">
-                            <li> <a href="">google</a> </li>
-                            <li> <a href="">Facebook</a></li>
-                            <li> <a href="">instagram</a> </li>
-                            <li> <a href="">tweeter</a></li>
-                            <li> <a href="">E-Mail</a></li>
-        
-                        </ul>
-                    </li>
-                </ul>
+<body>
+    <br>
+
+    <div dir="rtl" class="text">
+        <b class="site-name"><span style="color: rgb(74, 0, 194);">MR</span>.JOB</b>
+        <img src="../imgs/NEWLOGO.png" alt="" class="logo">
+        <p style="color: red;">افضل موقع وظائف في مصر </p>
+        <p>فرص عمل في جميع المجالات </p>
+        <p>افضل الوظائف في الوطن العربي </p>
+        <a href="#signin-form"><input type="submit" value="سجل الدخول الان واحصل على وظيفتك"></a>
+    </div>
+
+    <form id="signin-form">
+        <div id="sign">
+            <p style="color: seagreen; margin: -20px 20px 10px 117px;">LOG IN</p>
+
+
+            <div class="UN-in">
+                <label for="UserName"> User Name </label>
+                <br>
+                <br>
+                <input class="FN" type="text" name="UserName" placeholder="User name or email">
             </div>
-        
-        </nav>
-        
-         <form action="signin">
-             <div id="sign">
- 
-                 
-                 <div class="in1">
-                    <label for="UserName"> User Name </label>
-                    <input class="FN" type="text" name="UserName" placeholder="User name">
-                 </div>
-                
-                 <div class="in4">
-                    <label for="password"> Password </label>
-                    <input class="pass" type="password" name="password" id="" placeholder="password">
-                 </div>
-                 <br>
-                 <a class="FP" href="">Forget password</a>
-                 <button class="sub" type="submit">Sign in</button>
-                 <br>
- 
-             </div>
- 
- 
-         </form>
- 
-    </body>
+
+            <div class="pass-in">
+                <label for="password"> Password </label>
+                <br><br>
+                <input class="pass" type="password" name="password" id="" placeholder="password">
+            </div>
+            <br>
+            <a class="Forget" href="">Forget password !!</a>
+            <a href="inter_face.html"><input type="submit" class="sub" value="sign in"></a>
+            <br>
+
+        </div>
+
+
+    </form>
+
+
+</body>
+
 </html>

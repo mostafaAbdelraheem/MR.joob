@@ -1,169 +1,112 @@
 body{
-        background-color: rgb(238, 237, 237);
-        /* background-image: url(imgs/backg3.jpeg); */
-   
+    background-image: url(imgs/f10335488.jpg);
+    background-size: 100%;
 }
-nav{
-    background-color: rgb(27, 99, 182);
-    height: 70px;
-    width: 105%;
-    color: white;
-    /* margin: -7px -20px 0px -0px ; */
-    margin-left: -10px;
-    margin-top: -10px;
+h1{
+    color: rgb(0, 195, 255); text-align: center; font-size: 40px;
+
 }
-nav ul{
-    list-style: none;
-    /* padding: 5px -20px 3px 150px; */
-    justify-content: center;
-    display: inline-flex ;
-    margin: 15px 15px 10px 700px ;
-;
+span{
+    color:#5310be;
 }
-nav li{
-    padding: 15px;
-    font-size: 20px;
+img{
+    width: 300px;
+    height: 300px; 
+    /* margin: -20px 1px 1px 580px; */
+    opacity: 0.8;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 53%;
+    left: 51%;
+    transform: translate(-50%, -50%)
+
 }
-div li :hover{
-    color: yellowgreen;
+
+h2{
+    color: lemonchiffon;
 }
-.con:hover{
-    color: yellowgreen;
+
+input{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;   
+    border: 0px;
+    border-radius: 9px;
+    background-color:  #5310be;
+    color: whitesmoke;
+}
+input.com-fo{
+    background-color: rgb(206, 248, 16);
+    color: rgb(113, 123, 141);
+    margin-bottom: 17px;
+}
+input:hover{
+    background-color: #00db5b;
+    color: whitesmoke;
+    height: 52px;
+    border-radius: 5px 25px 5px 25px;
+    transition: 0.320s;
+  
+}
+input:active{
+    background-color: #efff10;
+    color: grey;
+} 
+
+div#contain{
+    margin-left: 280px;
+}
+h2.w{
+    margin-left: 20px;
+}
+#com{
+    
+    /* margin: 430px 100px -550px 510px; */
+top: 32%;
+right: 82%;
+position: absolute;
+margin: 12px 0px;
+}
+ 
+
+
+#emp{
+    /* margin: -157px 10px 1px 350px; */
+padding: 2px 0px;
+top: 33%;
+left: 22%;
+position: absolute;
+
+
+}
+.but{
+    background-color: rgb(31, 204, 8);
+}
+.butt{
+    background-color: rgba(255, 0, 0, 0.959);
+}
+a input{
+    display: block;
+}
+a#in{
+    margin-left: -420px;
+    margin-top: 20px;
 }
 a{
     text-decoration: none;
-    color: white;
 }
-ul .CU{
-    display: none;
+/* .butt{
+    background-color:rgb(16, 180, 230);
+    color: black;
+    width: 110px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px #5310be solid;
+    right: 300px;
 }
-.con:hover .CU{
-    display: inline-flex;
-    display: block;
-    padding: 1px;
-    margin-top: 10px;
-	margin-left: 2px;
-    background-color: rgb(16, 89, 150);
-    border: white solid;
-    border-radius: 7px;
-
-    
-
-}
-    
-
-.SI{
-    margin-left: 650px;
-    margin-top: -85px;
-    color: rgb(92, 92, 247);
-    
-}
-
-div#sign{
-    top: 15%;
-    left: 35%;
-    height: 600px;
-    width: 400px;
-    position: absolute;
-    border: 2px solid #619af0;
-    border-radius: 12px;
-    padding: 10px;
-    box-shadow: 0px 0px 20px   rgb(139, 180, 241);
-    display: inline;
-    /* background-color: rgb(238, 242, 255); */ 
-    background-color: hsla(132, 40%, 78%, 0.2);
-}
-button{
-    display: block;
-    width: 97%;
-    text-align: center;
-    font-size: 16px;
-    background: #0e61c0;
-    color: #fff;
-    justify-content: center;
-    border: 2px solid #fff;
-    border-radius: 7px;
-    padding-bottom: 7px;
-
-}
-button:hover{
-background-color:  #084080;
-}
-.log{
-    display: inline-flex;
-    width: 25px;
-    height: 25px;
-    position: relative;
-    padding-right:15px;
-    padding-top: 5px;
-    left: 100px;
-}
-input{    
-    height: 20px;
-    width: 30%;
-    background-color: #FAFAFB;
-    border: 1px solid #D9DDE4;
-    border-radius: 2px;
-    margin-top: -50px;
-
-}
-input:hover{
-    box-shadow: 0px 0px 20px   rgb(185, 208, 241);
-}
-.FN{
-    display: inline;
-    padding: 10px 100px 10px 10px ;
-    margin-left: 80px;
-    width: 200px;
-}
-.LN{
-    padding: 10px 100px 10px 10px ;
-    display: inline;
-    margin-left: 80px;
-    width: 200px;
-    position: relative;
-}
-.E{
-    padding: 10px 100px 10px 10px ;
-    margin-left: 80px;
-    width: 200px;
-
-}
-.pass{
-    padding: 10px 100px 10px 10px ;
-    margin-left: 80px;
-    width: 200px;
-}
-#sign div{
-    padding: 10px;
-
-}
-.sub{
-    width: 70px;
-    height: 40px;
-    margin-left: 170px;
-    background-color:teal;
-    padding-bottom: 4px;
-}
-.FC{
-    width: 160px;
-    height: 110px;
-}
-.or{
-    text-align: center;
-    color: rgb(15, 49, 163);
-}
-@media all and (min-width: 800px){
-    #sign{
-        flex: 3;
-        order: 2;
-    }
-
-}
-@media all and (min-width: 600px){
-    #sign{
-        flex: 1;
-    }
-}
-
+#up{
+    margin: 50px 150px 20px 400px;
+} */
 

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <title>MR.JOB</title>
+  <link rel="stylesheet" href="../css/Accountant job.css">
+  <link rel="icon" type="image/png" href="../imgs/NEWLOGO.png">
+
+
+  <style>
+body {
+  background: url(../imgs/redback.png);
+}
+
+nav {
+  width: 1063px;
+}
+
+h2 {
+  color: turquoise;
+  text-align: center;
+  font-size: 35px;
+
+}
+
+#majores a button {
+  width: 150px;
+  height: 55px;
+  margin: 15px;
+  border-radius: 37px;
+  border: 0;
+  background-color: #ddd;
+  font-size: 18px;
+  font-family: cursive;
+  color: rgb(8, 82, 81);
+}
+
+#majores a button:hover {
+  border-radius: 37px 5px 37px 5px;
+  transition: all .3s linear;
+  background-color: turquoise;
+  color: whitesmoke;
+}
+#top-footer{
+  width: 900px;
+
+}
+#comment-form{
+  padding-top: 30px;
+  margin-right: -250px;
+  width: 1768px;
+
+
+}
+
+
+
+#comment-form input {
+  width: 1430px;
+  /* margin-right: -180px; */
+}
+#comment-form textarea {
+  width: 1430px;
+  margin-right: 10px;
+}
+
+#comment-form button:hover {
+  width: 1080px;
+  height: 50px;
+}
+hr{
+  border: 1px solid rgb(9, 189, 39);
+  background-color: rgb(3, 3, 3);
+  margin: 13px;
+  height: 2px;
+  width: 700px;
+}
+hr.l {
+  float: left;
+}
+hr.r {
+  float: right;  
+}
+.empty{
+  width: 1100px;
+  margin-right: 12%;
+}
+
+div ul li {
+  padding: 20px 75px 2px 3px;
+  display: inline-flex;
+  width: 90px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 37px;
+  border: 0;
+  background-color: #ddd;
+  font-size: 18px;
+  font-family: cursive;
+  color: rgb(8, 82, 81);
+}
+div ul li:hover{
+  border-radius: 37px 5px 37px 5px;
+  transition: all .3s linear;
+  background-color: turquoise;
+  color: whitesmoke;
+
+}
+div ul button{
+  width: 250px;
+  height: 55px;
+  margin:35px 35%;
+  background-color: darkcyan;
+  color: whitesmoke;
+  font-size: 25px;
+  border: 0rem;
+  border-radius: 8px;
+}
+div ul button:hover{
+  background-color: turquoise;
+  border-radius: 36px 6px 36px 6px;
+  transition: all .3s linear;
+
+}
+
+
+
+  </style>
+</head>
+
+<body>
+
+
+  <div id="top-logo">
+    <h2>MR.JOB</h2>
+    <a href="../index.html"><img src="../imgs/NEWLOGO.png" alt=""></a>
+  </div>
+
+
+  <nav id="navigation">
+    <ul class="cls-nav">
+      <!-- <li> <a href="">الصفحه الرئيسيه</a> </li> -->
+      <li> <a href="signin.html">تسجيل دخول</a> </li>
+      <li> <a href="signup.html">انشاء حساب</a></li>
+      <li> <a href="company_form.html">اعلن عن وظيفه</a></li>
+      <li><a href="#contact">تواصل معنا</a></li>
+      <!-- <li class="con">تواصل معنا
+                <ul class="CU">
+                    <li> <a href="">جوجل</a> </li>
+                    <li> <a href="">فيس بوك</a></li>
+                    <li> <a href="">هنستجرام</a> </li>
+                    <li> <a href="">تويتر</a></li>
+                    <li> <a href="">البريد</a></li>
+
+                </ul> -->
+      <!-- <li><img src="../imgs/NEWLOGO.png" alt="logo"></li> -->
+      </li>
+    </ul>
+
+  </nav>
+  <br>
+  <br>
+  <!-- <div class="side-bar">
+  <div class="right-side-bar">
+    <ul>
+      <li>
+        <h2>MR.JOB</h2>
+      </li>
+      <li><a href="">تعديل الملف الشخصي</a></li>
+      <li><a href="">انشاء حساب جديد</a> </li>
+      <li><a href="">تسجيل دخول بحساب اخر </a></li>
+      <li><a href="">انشاء سيرة ذاتية </a></li>
+      <li><a href="">الوظائف حسب القسم</a></li>
+      <li><a href="">عن الموقع </a></li>
+      <li><a href=""></a></li>
+      <li></li>
+    </ul>
+  </div>
+</div> -->
+
+
+
+  <div id="search-bar" style="margin-right: -260px;">
+
+    <!-- <img class="acc2" src="../imgs/acc5.jpg" alt=""> -->
+    <input id="search" class="form-search" placeholder=" ادخل المسمى الوظيفي  مثال مهندس. محاسب. مبرمج. مصمم...."
+      type="search" value="" name="s" />
+    <label for=""></label>
+    <select name="" id=""
+      style="width: 120px; height: 45px; margin-right: -14px; padding-top: 2px; border: 0px; box-shadow: none; font-size: 17px;">
+      <option value="">
+        <h2>اختر المنطقة</h2>
+      </option>
+      <option value="">القاهرة</option>
+      <option value="">الجيزه</option>
+      <option value="">بني سويف</option>
+      <option value="">الفيوم</option>
+      <option value="">المنيا</option>
+      <option value="">اسيوط</option>
+      <option value="">سوهاج</option>
+      <option value="">قنا</option>
+      <option value="">الاقصر</option>
+      <option value="">اسوان</option>
+      <option value="">القليوبيه</option>
+      <option value="">المنوفيه</option>
+      <option value="">الشرقيه</option>
+      <option value="">الغربيه</option>
+      <option value="">الاسكندرية</option>
+      <option value="">البحيره</option>
+      <option value="">بور سعيد</option>
+    </select>
+    <button type="submit" class="search-submit"><i class="fa fa-search">search</i></button>
+  </div>
+
+  <div id="majores" class="si">
+    <marquee behavior="ALTERNATE" direction="left" scrollamount="15"  style="width: 1000px; margin: 10px 500px 10px -90px;" ><h2>اخترالمجال</h2></marquee>
+    <div style="display: inline-flex; flex-wrap: wrap ; margin: 60px 20% 70px; ">
+      <a href="tasweq.html" id="one"><button>تسويق</button></a><br>
+      <a href="Graphic_Design.html" id="two"><button>مصمم جرافيك</button></a><br>
+      <a href="Accountant job.html" id="three"><button>محاسبه</button></a><br>
+      <a href="Programing.html" id="foure"><button>برمجه</button></a><br>
+      <a href="Customers.html" id="five"><button>خدمه عملاء</button></a><br>
+
+      <a href="soon.html" id="five"><button>ادارة اعمال</button></a><br>
+      <a href="soon.html" id="five"><button>مجالات هندسيه</button></a><br>
+      <a href="translate.html" id="five"><button>ترجمة</button></a><br>
+      <a href="IT.html" id="five"><button>IT</button></a><br>
+      <a href="soon.html" id="five"><button>دكتور بشري</button></a><br>
+
+
+    </div>
+
+  </div>
+
+  <hr class="r">
+  <h1 style="margin: 0px 2px ; font-size: 40px; display: inline; color: rgb(218, 13, 13); ">OR</h1>
+  <hr class="l">
+
+
+  <h2 style="color: turquoise; margin: 80px 2px;"><b>وظائف شاغرة بدون مؤهل</b></h2>
+  <div class="empty">
+    <ul>
+      <li>عمال</li>
+      <li>سائق</li>
+      <li>مصانع</li>
+      <li>تعبئة وتغليف</li>
+      <li>معمار</li>
+      <li>فنادق</li>
+      <li>أمن</li>
+      <li>ديليفري</li>
+      <li>كاشير</li>
+      <li>الخ......</li>
+      <br>
+      <a href="Empty_jobs.html"><button>من هنا</button></a>
+    </ul>
+  </div>
+
+
+
+
+
+
+  <div id="top-footer">
+    <div id="comment-form">
+      <div>
+        <b style="color:wheat">أترك تعليك</b>
+        <input type="text" placeholder="الاسم">
+        <input type="text" placeholder="رقم التليفون">
+        <input type="email" placeholder="البريد الالكتروني">
+        <textarea name="" id="" cols="160" rows="7" placeholder="اكتب تعليقك هناا..."></textarea>
+        <br>
+
+        <button style="width: 1105px;margin-right: 160px; ">اراسل التعليق </button>
+      </div>
+    </div>
+
+    <a href="#top-logo"><img class="go-top" src="../imgs/gotop.png" alt="" style="margin-right: 80%;"></a>
+  </div>
+
+
+  <footer>
+    <h2 class="fot" style="font-size: 28px;">POWERDE BY INFINITE SUCCES TEAM</h2>
+    <!-- <div class="foot"> -->
+    <h3>تواصل معنا </h3>
+    <!-- <div class="logo"> -->
+    <span id="contact" class="fimg">
+      <a href="" target="_blank"> <img src="../imgs/face.png" alt=""> </a>
+      <a href="" target="_blank"> <img src="../imgs/whats2.png" alt=""> </a>
+      <a href="" target="_blank"> <img src="../imgs/tweet1.png" alt=""> </a>
+      <a href="" target="_blank"> <img src="../imgs/in1.png" alt=""> </a>
+      <a href="" target="_blank"> <img src="../imgs/tube.png" alt=""> </a>
+    </span>
+    <!-- </div>
+        </div> -->
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <nav id="navigation">
+        <ul class="cls-nav" dir="rtl">
+            <li> <a href="">الصفحه الرئيسيه</a> </li>
+            <li> <a href="html/signin.html">تسجيل دخول</a> </li>
+            <li> <a href="">انشاء حساب</a></li>
+            <li> <a href="">لاصحاب الشركات</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+            <li><a href="#" target="_blank" class="cv">creat your CV</a></li>
+            <! <li class="con">تواصل معنا
+                <ul class="CU">
+                    <li> <a href="">جوجل</a> </li>
+                    <li> <a href="">فيس بوك</a></li>
+                    <li> <a href="">هنستجرام</a> </li>
+                    <li> <a href="">تويتر</a></li>
+                    <li> <a href="">البريد</a></li>
+
+                </ul> -->
+  <!-- <li><img src="../imgs/LOGO.png" alt="logo"></li>
+            </li>
+        </ul>
+
+    </nav>
+    <br>
+    <br>
+
+    <div class="clear2"></div>
+    <br>
+
+
+
+
+      <div class="clear1"></div>
+      <br>
+
+
+
+
+    <div class="parent">
+        <div><button class="button" >..بحث</button></div>
+        <div><input type="text" id="search" onkeyup="myFunction()" placeholder="..اختر المنطقه" title="type in acategory"></div>
+        <div><input type="text" id="search" onkeyup="myFunction()" placeholder="..ادخل المسمى الوظيفى" title="type in acategory"></div>
+
+
+    </div>
+
+
+    <div class="clear"></div>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="job22">
+      وظائف بدون مؤهل
+      <ul>
+        <li><a href="no.html">اضغط هنا</a></li>
+
+
+
+      </ul>
+    </div>
+
+  -->
+
+
+</body>
+
+</html>
