@@ -1,5 +1,5 @@
 body{
-    background: url(../imgs/backimg.jpg) scroll  ;
+    background: url(../imgs/backimg.jpg) scroll ;
 
 
 }
@@ -10,7 +10,6 @@ body{
     text-align: center;
     margin: 3px 650px 1px 1px;
     font-size: 65px;
-
 }
 #top-logo img{
     width: 45px;

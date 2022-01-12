@@ -1,13 +1,13 @@
 body{
-    background-image: url(imgs/f10335488.jpg);
+    background-image: url(imgs/nback.jpg);
     background-size: 100%;
 }
 h1{
-    color: rgb(0, 195, 255); text-align: center; font-size: 40px;
+    color: rgba(9, 82, 241, 0.938); text-align: center; font-size: 40px;
 
 }
 span{
-    color:#5310be;
+    color:#0bb945;
 }
 img{
     width: 300px;
@@ -36,6 +36,9 @@ input{
     border-radius: 9px;
     background-color:  #5310be;
     color: whitesmoke;
+    border: 0.5px groove rgb(48, 46, 46);
+    transition: 0.4s;
+
 }
 input.com-fo{
     background-color: rgb(206, 248, 16);
@@ -65,7 +68,7 @@ h2.w{
     
     /* margin: 430px 100px -550px 510px; */
 top: 32%;
-right: 82%;
+right: 21%;
 position: absolute;
 margin: 12px 0px;
 }
@@ -85,7 +88,7 @@ position: absolute;
     background-color: rgb(31, 204, 8);
 }
 .butt{
-    background-color: rgba(255, 0, 0, 0.959);
+    background-color: rgba(0, 255, 200, 0.959);
 }
 a input{
     display: block;
