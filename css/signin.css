@@ -1,4 +1,4 @@
-
+@media screen and (max-width:1920px){
  body{
     background: rgb(238, 237, 237) url(../imgs/tbg.jpg);
     color: whitesmoke;
@@ -127,4 +127,5 @@ a.Forget {
 }
 a.Forget:hover{
     color: rgb(202, 5, 5);
+}
 }

@@ -1,3 +1,5 @@
+@media screen and (max-width:1920px){
+
 body{
 background-image :url("../imgs/inter-viow3.jpg");
 background-size: 25%;
@@ -86,4 +88,5 @@ input[type=reset]:active{
   background-color: blue;
   font-size: 20px;
   font-family: noga;
+}
 }

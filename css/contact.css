@@ -1,3 +1,7 @@
+@media screen and (max-width:1920px){
+
+
+
 body{
   background-image: url("../imgs/inter-view2.jpg");
   background-size: 100%;
@@ -122,4 +126,5 @@ form a:active {
 }
 ::-webkit-scrollbar-thumb {
     background-color: #6a0c81 !important;
+}
 }
